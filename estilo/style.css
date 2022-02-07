@@ -149,9 +149,15 @@ td, th {
 	padding: 8px 15px;
 }
 @media screen and (max-width:480px) {
-	.copyright .caixa .checkbox .produtos{
-		width: auto;
+	.produtos li{
+		width: 90%;
 	}
+	.produtos{
+		margin-left: 3em;
+	}
+	nav{
+			position: static;
+		}
 }
 
 /* css da página inicial */
